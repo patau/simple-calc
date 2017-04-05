@@ -25,10 +25,8 @@ while input != "count", input != "avg", input != "fact", input != "=" {
             print("You did not enter a valid value")
         }
     }
-    print(nums)
     input = readLine(strippingNewline: true)!
 }
-print("Input: " + input)
 
 if input == "count" {
     for num in nums {
